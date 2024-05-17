@@ -8,10 +8,12 @@
     text-align: center;
     margin: 0 auto;
     padding-bottom: 20px;
+    
 }
 
 .title{
     font-size: 3rem;
+    padding-bottom: 10px;
 }
 
 .subtitle{
@@ -26,6 +28,12 @@
 
 .button-section1{
     background-color: #29497d;
+    border: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #fff;
+    padding: 15px 30px;
+    border-radius: 30px;
 }
 
 .carousel-container {
@@ -56,10 +64,11 @@
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    background-color: #ccc;
+    background-color: #fff;
     cursor: pointer;
   }
   
   .indicator.active {
     background-color: #000;
+    cursor: pointer;
   }

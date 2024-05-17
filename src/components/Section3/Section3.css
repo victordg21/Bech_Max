@@ -1,0 +1,70 @@
+.Section3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #fff;
+    
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.color1{
+    background-color: darkgoldenrod;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.color2{
+    background-color: darkblue;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.color3{
+    background-color: darkred;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.color4{
+    background-color: darkslategrey;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    row-gap: 10px;
+    padding-left: 5%;
+    padding-bottom: 5%;
+
+}
+
+.button-section3{
+    background-color: #fff;
+    color: #000;
+    border: none;
+    font-weight: 600;
+    border-radius: 20px;
+    padding: 10px 30px;
+    font-size: 1rem;
+    cursor: pointer;
+}

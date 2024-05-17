@@ -1,0 +1,23 @@
+.Section2{
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+    justify-content: center;
+}
+
+.Section2-Container{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    padding-bottom: 30px;
+}
+
+.images-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;
+    padding-bottom: 10px;
+}
