@@ -1,0 +1,65 @@
+.Section1{
+    color: #000;
+    padding: 20px 0;
+}
+
+.text{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.title{
+    font-size: 3rem;
+}
+
+.subtitle{
+    font-size: 1.5rem;
+}
+
+.buttondiv-section1{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.button-section1{
+    background-color: #29497d;
+}
+
+.carousel-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 50vh;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .indicator-container {
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    gap: 5px;
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    cursor: pointer;
+  }
+  
+  .indicator.active {
+    background-color: #000;
+  }
