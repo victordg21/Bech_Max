@@ -1,0 +1,126 @@
+.section5-container {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #111;
+    color: white;
+}
+
+.section5-container h2 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.simulation {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.country-weight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.country, .weight {
+    margin-bottom: 20px;
+}
+
+.country p{
+    margin-bottom: 10px;
+}
+
+.flags img {
+    width: 40px;
+    height: 40px;
+    margin: 0 10px;
+}
+
+.weight-options {
+    display: flex;
+    align-items: center;
+}
+
+.weight-options select, .weight-options button {
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+.weight p{
+    margin-bottom: 10px;
+}
+
+.inputButtonWeight{
+    border-radius: 5px;
+}
+
+.simulate-button {
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.simulate-button:hover {
+    background-color: #218838;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.plan {
+    background-color: #0056b3;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.plan p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.plan ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan ul li {
+    margin-bottom: 10px;
+    color: #cfcfcf;
+}
+
+.barraSimulate{
+    margin-bottom: 20px;
+}
+
+.best-seller {
+    background-color: #28a745;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    display: inline-block;
+}

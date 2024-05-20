@@ -1,0 +1,40 @@
+.section4-container {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #f9f9f9;
+}
+
+.section4-container h2 {
+    font-size: 3.5rem;
+}
+
+.steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.step {
+    flex: 1;
+    max-width: 300px;
+    margin: 5px;
+    text-align: center;
+}
+
+.step img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.step h3 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-family: 'FuturaCondensedExtraBold', sans-serif;
+}
+
+.step p {
+    font-size: 1rem;
+    font-family: 'ProximaNova', sans-serif;
+    color: #666;
+}
