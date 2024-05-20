@@ -21,9 +21,9 @@ function Header (){
             <div className='Container-Header'>
                 <div className='Header-Mobile'>
                     <div>
-                        <img className='logo-header' src="./src/assets/Logo.png" alt="" />
+                        <img className='logo-header' src="./src/assets/Logo.png" style={{ display: isMenuOpen ? 'none' : 'block' }} alt="" />
                     </div>
-                    <div onClick={toggleMenu} className="toggle-button">≡</div>
+                    <div onClick={toggleMenu} className="toggle-button" style={{ display: isMenuOpen ? 'none' : '' }} >≡</div>
                 </div>
                 <ul className={`menu ${isMenuOpen ? 'active' : ''}`}>
                     <div onClick={toggleMenu} className="close-button">X</div>
