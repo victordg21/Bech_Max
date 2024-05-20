@@ -14,10 +14,50 @@
     padding-bottom: 30px;
 }
 
-.images-line{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 80px;
-    padding-bottom: 10px;
-}
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .images-line {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10%;
+    padding: 0 10%;
+  }
+  
+  .images-line img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+
+  @media (max-width: 676px){
+    .images-line {
+      display: block;
+      gap: 20%;
+      padding: 0 20%;
+    }
+    
+  }
+

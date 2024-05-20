@@ -21,7 +21,7 @@ function Header (){
             <div className='Container-Header'>
                 <div className='Header-Mobile'>
                     <div>
-                        <img className='logo-header' src="./src/assets/logo.png" alt="" />
+                        <img className='logo-header' src="./src/assets/Logo.png" alt="" />
                     </div>
                     <div onClick={toggleMenu} className="toggle-button">≡</div>
                 </div>

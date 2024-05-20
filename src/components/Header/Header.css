@@ -7,8 +7,8 @@
 }
 
 .logo-header{
-    width: 32px;
-    padding-right: 80px;
+    width: 128px;
+    padding-right: 40px;
 }
 
 .toggle-button, .close-button{
@@ -18,6 +18,8 @@
 
 .menu{
     display: flex;
+    justify-content: center;
+    align-items: center;
     column-gap: 30px;
     list-style: none;
 
@@ -27,11 +29,12 @@
 a{
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 18px;
+    font-weight: 600;
 }
 
 
-@media (max-width: 1023px){
+@media (max-width: 1244px){
 
     .Container-Header{
         display: block;
@@ -63,24 +66,23 @@ a{
         width: 100%;
         height: 100vh;
         display: none;
-        position: fixed;
+        position: fixed; 
         top: 0;
         left: 0;
-        background-color: #181818;
+        background-color: #000;
         flex-direction: column;
         justify-content: center;
         row-gap: 20px;
     }
 
     .menu li{
-        padding-left: 20%;
+        padding-left: 0%;
         
     }
 
     a{
         font-size: 1.5rem;
         border-bottom: 1px solid #fff;
-        padding-right: 20px;
         
     }
 
