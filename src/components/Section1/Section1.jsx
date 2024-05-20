@@ -9,8 +9,8 @@ function Section1 (){
 
     const images = [
     './src/assets/Section1/Banner1.png',
-    'https://via.placeholder.com/500x300?text=Image+2',
-    'https://via.placeholder.com/500x300?text=Image+3',
+    './src/assets/Section1/Banner2.png',
+    './src/assets/Section1/Banner3.png',
     ];
 
     useEffect(() => {

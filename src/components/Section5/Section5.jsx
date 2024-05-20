@@ -47,14 +47,14 @@ function Section5() {
 
                 <div className="plans">
 
-                    <div className="plan">
+                    <div className="plan1">
 
                         <div className="best-seller">MAIS VENDIDO</div>
 
                         <h3>Plan's name</h3>
 
                         <p>US$ XX,XX</p>
-                        <hr className='barraSimulate'/>
+                        <hr className='barraSimulate1'/>
                         <ul>
                             <li>Frete US$ XX,XX + Taxa BechMax US$ XX,XX</li>
                             <li>Prazo de entrega: XX a XX dias</li>
@@ -66,12 +66,12 @@ function Section5() {
 
                     </div>
 
-                    <div className="plan">
+                    <div className="plan2">
 
                         <h3>Plan's name</h3>
 
                         <p>US$ XX,XX</p>
-                        <hr className='barraSimulate'/>
+                        <hr className='barraSimulate2'/>
                         <ul>
                             <li>Frete US$ XX,XX + Taxa BechMax US$ XX,XX</li>
                             <li>Prazo de entrega: XX a XX dias</li>
@@ -83,11 +83,11 @@ function Section5() {
 
                     </div>
 
-                    <div className="plan">
+                    <div className="plan3">
 
                         <h3>Plan's name</h3>
                         <p>US$ XX,XX</p>
-                        <hr className='barraSimulate'/>
+                        <hr className='barraSimulate3'/>
 
                         <ul>
                             <li>Frete US$ XX,XX + Taxa BechMax US$ XX,XX</li>

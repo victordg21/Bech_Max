@@ -9,8 +9,8 @@
 }
 
 .logo-header{
-    width: 128px;
-    padding-right: 40px;
+    width: 160px;
+    padding-right: 30px;
 }
 
 .toggle-button, .close-button{
@@ -22,11 +22,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 30px;
+    column-gap: 45px;
     list-style: none;
-
 }
-
 
 a{
     text-decoration: none;

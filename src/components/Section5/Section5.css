@@ -62,7 +62,7 @@
 .simulate-button {
     margin-top: 20px;
     padding: 15px 30px;
-    background-color: #28a745;
+    background-color: #004780;
     color: white;
     border: none;
     border-radius: 5px;
@@ -71,7 +71,7 @@
 }
 
 .simulate-button:hover {
-    background-color: #218838;
+    background-color: #013057;
 }
 
 .plans {
@@ -80,8 +80,8 @@
     flex-wrap: wrap;
 }
 
-.plan {
-    background-color: #0056b3;
+.plan1 {
+    background-color: #242424;
     padding: 20px;
     margin: 10px 20px;
     border-radius: 30px;
@@ -89,30 +89,106 @@
     text-align: left;
 }
 
-.plan h3 {
+.plan1 h3 {
     font-size: 1.5rem;
-    color: #28a745;
+    color: #ffc861;
     margin-bottom: 10px;
 }
 
-.plan p {
+.plan1 p {
     font-size: 1rem;
     color: #fff;
     margin-bottom: 20px;
 }
 
-.plan ul {
+.plan1 ul {
     list-style: none;
     padding: 0;
 }
 
-.plan ul li {
+.plan1 ul li {
     margin-bottom: 10px;
     color: #cfcfcf;
 }
 
-.barraSimulate{
+
+.plan2 {
+    background-color: #242424;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.plan2 h3 {
+    padding-top: 35px ;
+    font-size: 1.5rem;
+    color: #ffcfdb;
+    margin-bottom: 10px;
+}
+
+.plan2 p {
+    font-size: 1rem;
+    color: #fff;
     margin-bottom: 20px;
+}
+
+.plan2 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan2 ul li {
+    margin-bottom: 10px;
+    color: #cfcfcf;
+}
+
+.plan3 {
+    background-color: #242424;
+    padding: 20px;
+    margin: 10px 20px;
+    border-radius: 30px;
+    max-width: 300px;
+    text-align: left;
+}
+
+.plan3 h3 {
+    padding-top: 35px ;
+    font-size: 1.5rem;
+    color: #a6b8cc;
+    margin-bottom: 10px;
+}
+
+.plan3 p {
+    font-size: 1rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.plan3 ul {
+    list-style: none;
+    padding: 0;
+}
+
+.plan3 ul li {
+    margin-bottom: 10px;
+    color: #cfcfcf;
+}
+
+.barraSimulate1{
+    margin-bottom: 20px;
+    border: #ffc861 1px solid;
+}
+
+.barraSimulate2{
+    margin-bottom: 20px;
+    border: #ffcfdb 1px solid;
+}
+
+.barraSimulate3{
+    margin-bottom: 20px;
+    border: #a6b8cc 1px solid;
 }
 
 .best-seller {
