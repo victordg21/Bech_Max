@@ -12,6 +12,7 @@
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap; /* Adicionando wrap para flexibilidade em telas menores */
 }
 
 .step {
@@ -37,4 +38,34 @@
     font-size: 1rem;
     font-family: 'ProximaNova', sans-serif;
     color: #666;
+}
+
+@media (max-width: 768px) {
+    .steps {
+        flex-direction: column; 
+        align-items: center;
+    }
+
+    .step {
+        max-width: none; 
+        margin: 10px 0;
+    }
+
+    .step img {
+        width: 40px; 
+        height: 40px;
+        margin-bottom: 5px;
+    }
+
+    .step h3 {
+        font-size: 1.2rem; 
+    }
+
+    .step p {
+        font-size: 0.9rem;
+    }
+
+    .section4-container h2 {
+        font-size: 2.5rem; 
+    }
 }
