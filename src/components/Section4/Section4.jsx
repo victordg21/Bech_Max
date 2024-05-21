@@ -9,7 +9,7 @@ function Section4() {
             <div className="steps">
 
                 <div className="step">
-                    <img src="./src/assets/01.png" alt="Icone 1" />
+                    <img src="./src/assets/shop.png" alt="Icone 1" />
                     <h3>1. FAÇA SEU PEDIDO</h3>
                     <p>
                         Escolha os produtos que deseja comprar nos 
@@ -20,7 +20,7 @@ function Section4() {
                 </div>
 
                 <div className="step">
-                    <img src="./src/assets/02.png" alt="Icone 2" />
+                    <img src="./src/assets/check.png" alt="Icone 2" />
                     <h3>2. CONFIRMAÇÃO E COMPRA</h3>
                     <p>
                         Envie seu pedido para nossa equipe. Nós 
@@ -32,7 +32,7 @@ function Section4() {
                 </div>
 
                 <div className="step">
-                    <img src="./src/assets/03.png" alt="Icone 3" />
+                    <img src="./src/assets/flight.png" alt="Icone 3" />
                     <h3>3. ENVIO E ENTREGA</h3>
                     <p>
                         Após a compra, enviaremos os produtos 

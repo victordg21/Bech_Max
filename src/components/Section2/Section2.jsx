@@ -4,11 +4,11 @@ import './Section2.css'
 function Section2 (){
 
     const images = [
-        './src/assets/Section2/01.png',
-        './src/assets/Section2/02.png',
-        './src/assets/Section2/03.png',
-        './src/assets/Section2/04.png',
-        './src/assets/Section2/05.png',
+        './src/assets/Section2/AmazonApple.png',
+        './src/assets/Section2/SephoraVersace.png',
+        './src/assets/Section2/CarterStanley.png',
+        './src/assets/Section2/MacySony.png',
+        './src/assets/Section2/WalmartEbay.png',
         ];
 
         const [currentIndex, setCurrentIndex] = useState(0);

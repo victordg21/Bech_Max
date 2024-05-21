@@ -8,27 +8,27 @@ function Section1 (){
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const images = [
-    './src/assets/Section1/Banner1.png',
-    './src/assets/Section1/Banner2.png',
-    './src/assets/Section1/Banner3.png',
+    './src/assets/Section1/BannerFirstImage.png',
+    './src/assets/Section1/BannerSecondImage.png',
+    './src/assets/Section1/BannerThirdImage.png',
     ];
 
     useEffect(() => {
         const interval = setInterval(() => {
-          setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+            setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         }, 5000);
     
         return () => clearInterval(interval);
-      }, [images.length]);
+    }, [images.length]);
     
-      const goToImage = (index) => {
+    const goToImage = (index) => {
         setCurrentIndex(index);
-      };
+    };
 
 
     return(
         <>
-           <div className='Section1'>
+            <div className='Section1'>
                 <div className='text'>
                     <h2 className='title'>COMPRE NOS EUA, RECEBA EM CASA</h2>
                     <h3 className='subtitle'>Sua compra internacional entregue no conforto do seu lar, com total segurança e rapidez garantida!</h3>
