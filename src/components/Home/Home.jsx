@@ -8,7 +8,7 @@ function Home (){
         <>
             <div className='HomeContainer'>
                 <video className="bgVideo" autoPlay loop playsInline muted>
-                    <source className='video' src='./src/assets/Vídeo-Site.mp4' type="video/mp4" />
+                    <source className='video' src='/Vídeo-Site.mp4' type="video/mp4" />
                 </video>
             </div>
         </>

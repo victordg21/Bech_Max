@@ -8,7 +8,7 @@ function Section6 (){
         <>
             <div className='section6Container'>
                 <video className="finalVideo" autoPlay loop playsInline muted>
-                    <source className='finalVvideo' src='./src/assets/Video-final-2.mp4' type="video/mp4" />
+                    <source className='finalVvideo' src='/Video-final-2.mp4' type="video/mp4" />
                 </video>
             </div>
         </>
