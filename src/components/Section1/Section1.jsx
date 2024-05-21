@@ -8,9 +8,9 @@ function Section1 (){
     const [currentIndex, setCurrentIndex] = useState(0);
 
     const images = [
-    './src/assets/Section1/BannerFirstImage.png',
-    './src/assets/Section1/BannerSecondImage.png',
-    './src/assets/Section1/BannerThirdImage.png',
+    '/BannerFirstImage.png',
+    '/BannerSecondImage.png',
+    '/BannerThirdImage.png',
     ];
 
     useEffect(() => {

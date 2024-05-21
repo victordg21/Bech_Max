@@ -15,9 +15,9 @@ function Section5() {
                         <p>País</p>
 
                         <div className="flags">
-                            <img src="./src/assets/Brasil.png" alt="Brazil" />
-                            <img src="./src/assets/EUA.png" alt="USA" />
-                            <img src="./src/assets/Mundo.png" alt="World" />
+                            <img src="/Brasil.png" alt="Brazil" />
+                            <img src="/EUA.png" alt="USA" />
+                            <img src="/Mundo.png" alt="World" />
                         </div>
 
                     </div>
